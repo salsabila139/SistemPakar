@@ -18,5 +18,10 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, EfekSampingActivity::class.java)
             startActivity(intent)
         }
+
+        binding.imageView6.setOnClickListener {
+            val intent = Intent(this, DataEfekSampingActivity::class.java)
+            startActivity(intent)
+        }
     }
 }

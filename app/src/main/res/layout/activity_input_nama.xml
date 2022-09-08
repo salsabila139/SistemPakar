@@ -5,20 +5,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="16dp"
+    android:background="@drawable/bg"
     android:orientation="vertical"
-    tools:context=".InputNamaActivity"
-    android:background="@drawable/bg">
+    tools:context=".InputNamaActivity">
 
     <TextView
         android:id="@+id/tv_nama"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:paddingHorizontal="16dp"
+        android:paddingTop="16dp"
         android:text="Nama Lengkap :"
         android:textColor="#000"
         android:textSize="20sp"
-        android:paddingHorizontal="16dp"
-        android:paddingTop="16dp"
-        android:layout_marginBottom="8dp"
         android:textStyle="bold" />
 
     <EditText
@@ -36,8 +37,8 @@
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_gravity="right"
-        android:layout_marginEnd="16dp"
         android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
         android:background="@drawable/costum1"
         android:fontFamily="sans-serif-black"
         android:text="Next" />
