@@ -14,13 +14,16 @@
         android:theme="@style/AppThemeNoActionBar"
         tools:targetApi="31">
         <activity
+            android:name=".BantuanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".InformasiActivity"
+            android:exported="false" />
+        <activity
             android:name=".DataEfekSampingActivity"
             android:exported="false" />
         <activity
             android:name=".DataGejalaActivity"
-            android:exported="false" />
-        <activity
-            android:name=".InformasiActivity"
             android:exported="false" />
         <activity
             android:name=".HasilActivity"
